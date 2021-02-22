@@ -11,7 +11,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/main.min.css" />
 </head>
 
 <!-- BODY -->
@@ -63,7 +63,7 @@
     <section class="features">
       <div class="container">
         <h2 class="visually-hidden title">FEATURES</h2>
-        <ul class="features-items list">
+        <ul class="features-list list">
           <li class="features-item list">
             <div class="features-icon-content"><svg class="features-icon" width="70" height="70">
                 <use href="./images/icons/sprite.svg#icon-antenna"></use>
@@ -116,7 +116,7 @@
           </li>
           <li class="about-image list">
             <img src="./images/images-index/img2.jpg"
-              alt="человек державший в однлй руке телефон а вторую руку положил на компюьер в каком то офисе"
+              alt="человек державший в одной руке телефон а вторую руку положил на компюьер в каком то офисе"
               width="370" height="294">
             <p class="about-text part">Мобильные приложения</p>
           </li>
@@ -362,28 +362,28 @@
         <ul class="social-link list">
           <li class="social-list-item list">
             <a href="#" class="social-link-item link">
-              <svg class="footer-list-icon" width="20" height="20">
+              <svg class="social-link-icon" width="20" height="20">
                 <use href="./images/icons/sprite.svg#icon-instagram"></use>
               </svg>
             </a>
           </li>
           <li class="social-list-item list">
             <a href="#" class="social-link-item link">
-              <svg class="footer-list-icon" width="20" height="20">
+              <svg class="social-link-icon" width="20" height="20">
                 <use href="./images/icons/sprite.svg#icon-twitter"></use>
               </svg>
             </a>
           </li>
           <li class="social-list-item list">
             <a href="#" class="social-link-item link">
-              <svg class="footer-list-icon" width="20" height="20">
+              <svg class="social-link-icon" width="20" height="20">
                 <use href="./images/icons/sprite.svg#icon-facebook"></use>
               </svg>
             </a>
           </li>
           <li class="social-list-item list">
             <a href="#" class="social-link-item link">
-              <svg class="footer-list-icon" width="20" height="20">
+              <svg class="social-link-icon" width="20" height="20">
                 <use href="./images/icons/sprite.svg#icon-linkedin"></use>
               </svg>
             </a>
@@ -394,10 +394,10 @@
         <b class="footer-form-title">Подпишитесь на рассылку</b>
         <form action="#" class="footer-subscribe-form">
           <input type="email" name="email" class="subscribe-form-input" placeholder="E-mail">
-          <button type="submit" class="subscribe-form-btn button">Подписаться</button>
-          <svg class="subscribe-form-icon" width="24" height="24">
-            <use href="./images/icons/sprite.svg#telegram"></use>
-          </svg>
+          <button type="submit" class="subscribe-form-btn button">Подписаться
+            <svg class="subscribe-form-icon" width="24" height="24">
+              <use href="./images/icons/sprite.svg#telegram"></use>
+            </svg></button>
         </form>
       </div>
     </div>
@@ -406,7 +406,7 @@
   <div data-modal class="backdrop is-hidden">
     <div class="hero-model-window">
       <div class="close">
-        <button data-modal-close class="close-btn button">
+        <button data-modal-close class="close-btn">
           <svg class="close-icon" width="18" height="18">
             <use href="./images/icons/sprite.svg#close"></use>
           </svg>
@@ -445,7 +445,7 @@
           Соглашаюсь с рассылкой и принимаю
           <a href="#" class="form-contract-link"> Условия договора</a>
         </label>
-        <button type="submit" class="modal-form-button">Отправить</button>
+        <button type="submit" class="modal-form-button button">Отправить</button>
         <!-- </span> -->
       </form>
     </div>

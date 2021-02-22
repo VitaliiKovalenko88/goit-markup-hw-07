@@ -1,0 +1,26 @@
+.studio-logo {
+  margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+
+  color: var(--black-color);
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  line-height: 1.38;
+
+  &:focus {
+    color: red;
+  }
+
+  .footer & {
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-right: 0px;
+
+    color: var(--primary-white-color);
+  }
+}
+
+.studio-logo-web {
+  color: var(--accent-color);
+}

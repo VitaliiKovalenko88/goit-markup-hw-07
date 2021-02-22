@@ -1,0 +1,21 @@
+.link {
+  .main-nav & {
+    display: flex;
+    align-items: center;
+  }
+
+  .address &:not(:last-child) {
+    margin-bottom: 9px;
+  }
+
+  .address &:hover,
+  .address &:focus {
+    color: var(--accent-color);
+  }
+
+  .footer & {
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}

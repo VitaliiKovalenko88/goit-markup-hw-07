@@ -7,18 +7,12 @@
 @import './base/container';
 
 // COMPONENTS
-
+@import './components/link';
 @import 'components/social-link';
 @import 'components/studio-logo';
 @import './components/button';
-@import './components/link';
 
 // LAYOUT
 @import 'layout/header';
-@import 'layout/hero';
-@import 'layout/features';
-@import 'layout/about';
-@import 'layout/team';
-@import 'layout/clients';
+@import './layout/portfolio';
 @import 'layout/footer';
-@import 'layout/modal';

@@ -1,0 +1,25 @@
+.container {
+  width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 0px auto;
+
+  .clients & {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+
+  .features > & {
+    max-height: 251px;
+  }
+
+  .footer & {
+    display: flex;
+    align-items: baseline;
+  }
+
+  .main-hero & {
+    max-width: 696px;
+    text-align: center;
+  }
+}
