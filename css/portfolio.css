@@ -171,8 +171,7 @@
 
 .studio-logo {
   margin-right: 93px;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 0px;
   color: var(--black-color);
   font-family: 'Raleway', sans-serif;
   font-size: 26px;
@@ -181,6 +180,10 @@
 
 .studio-logo:focus {
   color: red;
+}
+
+.main-nav .studio-logo {
+  padding: 24px 0 25px;
 }
 
 .footer .studio-logo {
